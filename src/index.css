@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(./assets/images/rick-and-morty-background-12.jpg);
+}
+
+.hr-green {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(5, 202, 5, 0),
+    rgba(5, 202, 5, 0.75),
+    rgba(5, 202, 5, 0)
+  );
+}
+
+.bg-purple {
+  background-color: rgba(77, 21, 129, 0.3) !important;
+}
+
+.hover-shadow:hover {
+  -webkit-box-shadow: 10px 10px 16px -5px rgba(5, 202, 5, 0.75);
+  -moz-box-shadow: 10px 10px 16px -5px rgba(5, 202, 5, 0.75);
+  box-shadow: 10px 10px 16px -5px rgba(5, 202, 5, 0.75);
+}
+
+.height-100 {
+  height: 75vh !important;
+}
